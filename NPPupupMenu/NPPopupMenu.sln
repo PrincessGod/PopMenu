@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NPPopupMenu", "NPPopupMenu.csproj", "{91FB6B28-45B0-4388-A3FB-E081C0C8B58B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PopMenuTest", "..\PopMenuTest\PopMenuTest.csproj", "{286A7832-38B4-4C97-AE8B-8851F9D11465}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91FB6B28-45B0-4388-A3FB-E081C0C8B58B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91FB6B28-45B0-4388-A3FB-E081C0C8B58B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91FB6B28-45B0-4388-A3FB-E081C0C8B58B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91FB6B28-45B0-4388-A3FB-E081C0C8B58B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{286A7832-38B4-4C97-AE8B-8851F9D11465}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{286A7832-38B4-4C97-AE8B-8851F9D11465}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{286A7832-38B4-4C97-AE8B-8851F9D11465}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{286A7832-38B4-4C97-AE8B-8851F9D11465}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
