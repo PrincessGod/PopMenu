@@ -12,30 +12,111 @@
         <Grid.Resources>
             <ResourceDictionary Source="pack://application:,,,/NPPopupMenu;component/Themes/Generic.xaml" />
         </Grid.Resources>
-        <npPopupMenu:PopupBox Style="{StaticResource MaterialDesignMultiFloatingActionPopupBox}"
-                              PlacementMode="RightAndAlignMiddles"
-                              ToolTipService.Placement="Right" PopupMode="MouseOver"
-                              ToolTip="PopupBox">
-            <npPopupMenu:PopupBox.ToggleContent>
-                <iconPacks:PackIconMaterial Height="24" Width="24" Kind="Alarm" />
-            </npPopupMenu:PopupBox.ToggleContent>
-            <StackPanel Orientation="Horizontal">
-                <Button Margin="4">
-                    <iconPacks:PackIconModern Width="20"
-                                              Height="20"
-                                              Kind="City" />
-                </Button>
-                <Button Margin="4">
-                    <iconPacks:PackIconModern Width="20"
-                                              Height="20"
-                                              Kind="AdobeEncore" />
-                </Button>
-                <Button Margin="4">
-                    <iconPacks:PackIconModern Width="20"
-                                              Height="20"
-                                              Kind="AdobeAftereffects" />
-                </Button>
-            </StackPanel>
+        <npPopupMenu:PopupBox Style="{StaticResource MaterialDesignMultiFloatingActionPopupBox}" Visibility="Hidden" VerticalAlignment="Center" PopupMode="MouseOverEager">
+           <StackPanel>
+               <npPopupMenu:PopupBox Style="{StaticResource MaterialDesignMultiFloatingActionPopupBox}"
+                                     PlacementMode="RightAndAlignMiddles"
+                                     ToolTipService.Placement="Right" PopupMode="MouseOver"
+                                     >
+                   <npPopupMenu:PopupBox.ToggleContent>
+                       <iconPacks:PackIconMaterial Height="24" Width="24" Kind="Alarm" />
+                   </npPopupMenu:PopupBox.ToggleContent>
+                   <StackPanel Orientation="Horizontal">
+                       <Button Margin="4">
+                           <iconPacks:PackIconModern Width="20"
+                                                     Height="20"
+                                                     Kind="City" />
+                       </Button>
+                       <Button Margin="4">
+                           <iconPacks:PackIconModern Width="20"
+                                                     Height="20"
+                                                     Kind="AdobeEncore" />
+                       </Button>
+                       <Button Margin="4">
+                           <iconPacks:PackIconModern Width="20"
+                                                     Height="20"
+                                                     Kind="AdobeAftereffects" />
+                       </Button>
+                   </StackPanel>
+               </npPopupMenu:PopupBox>
+               <npPopupMenu:PopupBox Style="{StaticResource MaterialDesignMultiFloatingActionPopupBox}"
+                                     PlacementMode="RightAndAlignMiddles"
+                                     ToolTipService.Placement="Right" PopupMode="MouseOver"
+                                     >
+                   <npPopupMenu:PopupBox.ToggleContent>
+                       <iconPacks:PackIconMaterial Height="24" Width="24" Kind="Alarm" />
+                   </npPopupMenu:PopupBox.ToggleContent>
+                   <StackPanel Orientation="Horizontal">
+                       <Button Margin="4">
+                           <iconPacks:PackIconModern Width="20"
+                                                     Height="20"
+                                                     Kind="City" />
+                       </Button>
+                       <Button Margin="4">
+                           <iconPacks:PackIconModern Width="20"
+                                                     Height="20"
+                                                     Kind="AdobeEncore" />
+                       </Button>
+                       <Button Margin="4">
+                           <iconPacks:PackIconModern Width="20"
+                                                     Height="20"
+                                                     Kind="AdobeAftereffects" />
+                       </Button>
+                   </StackPanel>
+               </npPopupMenu:PopupBox>
+
+               <npPopupMenu:PopupBox Style="{StaticResource MaterialDesignMultiFloatingActionPopupBox}"
+                                     PlacementMode="RightAndAlignMiddles"
+                                     ToolTipService.Placement="Right" PopupMode="MouseOver"
+               >
+                   <npPopupMenu:PopupBox.ToggleContent>
+                       <iconPacks:PackIconMaterial Height="24" Width="24" Kind="Alarm" />
+                   </npPopupMenu:PopupBox.ToggleContent>
+                   <StackPanel Orientation="Horizontal">
+                       <Button Margin="4">
+                           <iconPacks:PackIconModern Width="20"
+                                                     Height="20"
+                                                     Kind="City" />
+                       </Button>
+                       <Button Margin="4">
+                           <iconPacks:PackIconModern Width="20"
+                                                     Height="20"
+                                                     Kind="AdobeEncore" />
+                       </Button>
+                       <Button Margin="4">
+                           <iconPacks:PackIconModern Width="20"
+                                                     Height="20"
+                                                     Kind="AdobeAftereffects" />
+                       </Button>
+                   </StackPanel>
+               </npPopupMenu:PopupBox>
+               <npPopupMenu:PopupBox Style="{StaticResource MaterialDesignMultiFloatingActionPopupBox}"
+                                     PlacementMode="RightAndAlignMiddles"
+                                     ToolTipService.Placement="Right" PopupMode="MouseOver"
+               >
+                   <npPopupMenu:PopupBox.ToggleContent>
+                       <iconPacks:PackIconMaterial Height="24" Width="24" Kind="Alarm" />
+                   </npPopupMenu:PopupBox.ToggleContent>
+                   <StackPanel Orientation="Horizontal">
+                       <Button Margin="4">
+                           <iconPacks:PackIconModern Width="20"
+                                                     Height="20"
+                                                     Kind="City" />
+                       </Button>
+                       <Button Margin="4">
+                           <iconPacks:PackIconModern Width="20"
+                                                     Height="20"
+                                                     Kind="AdobeEncore" />
+                       </Button>
+                       <Button Margin="4">
+                           <iconPacks:PackIconModern Width="20"
+                                                     Height="20"
+                                                     Kind="AdobeAftereffects" />
+                       </Button>
+                   </StackPanel>
+               </npPopupMenu:PopupBox>
+
+            </StackPanel> 
         </npPopupMenu:PopupBox>
     </Grid>
 </Window>
