@@ -3,3 +3,7 @@ Combine [Material Design In XAML](https://github.com/ButchersBoy/MaterialDesignI
 
 ### Sample
 ![sample](/sample.gif)
+
+Another usge, combine them!
+
+![sample2](/sample2.gif)
